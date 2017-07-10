@@ -1,12 +1,17 @@
 package condicionales;
 
+import java.util.Scanner;
 import javax.swing.*;
 
 public class Condicionales {
 
     public static void main(String[] args) {
+        
+//        Scanner keyboard = new Scanner(System.in);
+//        System.out.println("Execute:\n\t1. edad\n\t2. anidado\n\t3. switchmenu");
+//        String choice = keyboard.nextLine();
 
-        String option = JOptionPane.showInputDialog(null, "Execute:\n1. edad\n2. anidado");
+        String choice = JOptionPane.showInputDialog(null, "Execute:\n1. edad\n2. anidado\n3. switchmenu");
 
         // java <6
 //        if (option.equals("anidado")) {
@@ -15,12 +20,15 @@ public class Condicionales {
 //            edad();
 //        }
         // java 7+
-        switch (option) {
+        switch (choice) {
             case "edad":
                 edad();
                 break;
             case "anidado":
                 anidado();
+                break;
+            case "switchmenu":
+                switchmenu();
                 break;
         }
     }
@@ -52,6 +60,31 @@ public class Condicionales {
             } else {
                 JOptionPane.showMessageDialog(null, "Tercer numero mayor");
             }
+        }
+    }
+    
+    private static void switchmenu() {
+        int a = Integer.parseInt(JOptionPane.showInputDialog(null, "a:"));
+        int b = Integer.parseInt(JOptionPane.showInputDialog(null, "b:"));
+        
+        String option = JOptionPane.showInputDialog(null, "Opciones:\n\t1. mayor\n\t2. suma\n\t3. resta");
+        
+        switch (option) {
+            case "mayor":
+                if(a > b) {
+                    JOptionPane.showMessageDialog(null, "a");
+                } else if (a < b) {
+                    JOptionPane.showMessageDialog(null, "b");
+                } else {
+                    JOptionPane.showMessageDialog(null, "ninguno");
+                }
+                break;
+            case "suma":
+                JOptionPane.showMessageDialog(null, "a+b: " + (a+b));
+                break;
+            case "resta":
+                JOptionPane.showMessageDialog(null, "a-b: " + (a-b));
+                break;
         }
     }
 }
