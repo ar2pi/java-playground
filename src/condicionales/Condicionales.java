@@ -30,6 +30,9 @@ public class Condicionales {
             case "switchmenu":
                 switchmenu();
                 break;
+            case "restaurant":
+                restaurant();
+                break;
         }
     }
 
@@ -85,6 +88,17 @@ public class Condicionales {
             case "resta":
                 JOptionPane.showMessageDialog(null, "a-b: " + (a-b));
                 break;
+        }
+    }
+
+    private static void restaurant() {
+        Scanner kb = new Scanner(System.in);
+
+        System.out.print("iteraciones:");
+        int num = kb.nextInt();
+
+        for(int i = 0; i < num; i++) {
+            System.out.println("Restaurante para programadores - " + (i+1));
         }
     }
 }
