@@ -10,5 +10,10 @@ package nextu.mensaje;
  * @author arthur.picerna
  */
 public class Bitacora {
-    
+    private Usuario usuario;
+    private String[] acciones;
+
+    public void escribirAccion() {
+
+    }
 }

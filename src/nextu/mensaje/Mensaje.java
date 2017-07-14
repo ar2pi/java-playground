@@ -10,5 +10,6 @@ package nextu.mensaje;
  * @author arthur.picerna
  */
 public class Mensaje {
-    
+    private Imagen imagen;
+    private String texto;
 }

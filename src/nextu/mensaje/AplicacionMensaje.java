@@ -10,5 +10,11 @@ package nextu.mensaje;
  * @author arthur.picerna
  */
 public class AplicacionMensaje {
-    
+    private Bitacora bitacora;
+    private Usuario[] usuarios;
+    private Grupo[] grupos;
+
+    public void registrarUsuario() {
+
+    }
 }

@@ -5,10 +5,20 @@
  */
 package nextu.mensaje;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author arthur.picerna
  */
 public class Usuario {
-    
+    private String nombre;
+    private int edad;
+    private String id;
+    private List grupos = new ArrayList<Grupo>();
+
+    private void enviarMensaje() {
+
+    }
 }
