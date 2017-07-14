@@ -9,7 +9,7 @@ public class Cancion {
     private Album album;
     private Artista artista;
 
-    private void reproducir(Cancion cancion) {
+    public void reproducir(Cancion cancion) {
 
     }
 }

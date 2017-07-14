@@ -17,15 +17,15 @@ public class Orden {
     private String fecha;
     private String[] ingredientes;
 
-    private void escogerIngredientes() {
+    public void escogerIngredientes() {
     
     }
-    
-    private void colocarDireccion() {
+
+    public void colocarDireccion() {
     
     }
-    
-    private void enviarConfirmacion() {
+
+    public void enviarConfirmacion() {
     
     }
 }

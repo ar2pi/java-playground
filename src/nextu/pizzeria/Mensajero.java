@@ -14,7 +14,7 @@ public class Mensajero {
     private String nombre;
     private String id;
     
-    private void enviarPizza(Orden orden) {
+    public void enviarPizza(Orden orden) {
     
     }
 }

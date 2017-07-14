@@ -18,7 +18,7 @@ public class Usuario {
     private String id;
     private List grupos = new ArrayList<Grupo>();
 
-    private void enviarMensaje() {
+    public void enviarMensaje() {
 
     }
 }

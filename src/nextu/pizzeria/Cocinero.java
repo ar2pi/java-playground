@@ -14,7 +14,7 @@ public class Cocinero {
     private String nombre;
     private String id;
     
-    private void prepararPizza(Orden orden) {
+    public void prepararPizza(Orden orden) {
         
     }
 }
