@@ -12,7 +12,10 @@ package nextu.granja;
 public class JuegoGranja {
     
     public static void main(String[] args) {
-    
+        Usuario usuario = new Usuario();
+        Granjero granjero = new Granjero("David");
+        Huevo huevo = new Huevo();
+        granjero.recoger(huevo);
     }
             
 }
