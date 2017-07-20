@@ -16,6 +16,16 @@ public class JuegoGranja {
         Granjero granjero = new Granjero("David");
         Huevo huevo = new Huevo();
         granjero.recoger(huevo);
+
+        usuario.toString();
+        usuario.equals(huevo);
+        usuario.getClass();
+//        Usuario clone = (Usuario) usuario.clone();
+
+        System.out.println(usuario.toString());
+        System.out.println(usuario.equals(huevo));
+//        System.out.println(usuario.equals(clone));
+        System.out.println(usuario.getClass());
     }
             
 }
