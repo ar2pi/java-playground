@@ -1,7 +1,5 @@
 package nextu.listas;
 
-import java.util.LinkedList;
-
 import nextu.listas.model.CompuList;
 
 /**
