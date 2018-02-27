@@ -1,4 +1,4 @@
-package nextu.listas.model;
+package playground.model;
 
 /**
  *

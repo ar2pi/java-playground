@@ -1,4 +1,6 @@
-/nbproject/
-/.idea/
 /build/
 /condicionales.iml
+
+nbproject/
+.idea/
+.vscode/

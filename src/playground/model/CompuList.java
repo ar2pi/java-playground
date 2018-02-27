@@ -1,5 +1,6 @@
-package nextu.listas.model;
+package playground.model;
 
+import playground.model.Compu;
 import java.util.LinkedList;
 
 /**
@@ -10,6 +11,7 @@ public class CompuList {
     private LinkedList<Compu> compuList;
 
     public CompuList() {
+        // https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
         this.compuList = new LinkedList();
     }
 
